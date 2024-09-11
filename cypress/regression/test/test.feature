@@ -1,4 +1,4 @@
-Feature: Sample Automated test for https://staging.cirms.ph
+Feature: Sample Automated test for CIRMS
 
   Background: 
       Given user is in login page
@@ -9,11 +9,6 @@ Feature: Sample Automated test for https://staging.cirms.ph
       And clicks the Login button
 
   Scenario: User can login
-    # When inputs username and password
-    # And clicks the login button
-    # And sees the Select Branch modal
-    # And selects "6 - testing" branch
-    # And clicks the Login button
     Then user should see the dashboard
 
   Scenario: User can visit the Reason page -- pass
